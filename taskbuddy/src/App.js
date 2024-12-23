@@ -1,10 +1,13 @@
 
+import React from 'react'
+import TaskForm from './Components/TaskForm'
+
 function App() {
   return (
-    <div className="App">
-    h1
+    <div>
+      <TaskForm/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
