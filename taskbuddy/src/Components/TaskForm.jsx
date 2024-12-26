@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import '../Style.css'
 
-function TaskForm(addTask) {
+export default function TaskForm({addTask}) {
     const [task,setTask] = useState('');
     const [priority, setPriority] = useState("Medium");
     const [category, setCategory] = useState("General");
@@ -52,5 +52,3 @@ function TaskForm(addTask) {
     </div>
   )
 }
-
-export default TaskForm
